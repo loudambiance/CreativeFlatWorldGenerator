@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class CFWChunkGenerator extends ChunkGenerator {
     @Override
-    public void generateNoise(@NotNull WorldInfo worldInfo, @NotNull Random random, int chunkX, int chunkZ, @NotNull ChunkData chunkData) {
+    public void generateSurface(@NotNull WorldInfo worldInfo, @NotNull Random random, int chunkX, int chunkZ, @NotNull ChunkData chunkData) {
 
         Material chunkMaterial;
         if(chunkZ<0 && chunkX<0){
