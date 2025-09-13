@@ -1,5 +1,5 @@
 name: CreativeFlatWorld
 version: '${project.version}'
 main: com.chumcraft.creativeflatworld.creativeflatworld.CreativeFlatWorld
-api-version: 1.19
+api-version: 1.21
 load: STARTUP
